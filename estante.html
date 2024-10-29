@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minha estante</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Livros</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <a href="index.html">
+    <div class="w3-right w3-padding-16">Voltar</div>
+  </a>
+    <div class="w3-center w3-padding-16">Minha estante</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/Mais-esperto-que-Diabo-liberdade/dp/8568014003">
+      <img src="https://m.media-amazon.com/images/I/819ERrDHRcL._SY425_.jpg" alt="Sandwich" style="width:100%">
+      <h3>+esperto que o Diabo</h3>
+      <p>O livro ensina a superar medos e limitações e aproveitar a adversidade para descobrir um benefício equivalente.</p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="">
+      <img src="https://books.google.com.br/books/publisher/content?id=qM5xCgAAQBAJ&hl=pt-BR&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U1tHhfLfcV_vy4Vh8hwL7QQdVfjEA&w=1280" alt="Steak" style="width:100%">
+      <h3>O vilarejo</h3>
+      <p>Um vilarejo que sumiu do mapa. O tempo o apagou do mundo, da história, da mente das pessoas. A única prova de que o local existiu é a vida de seus moradores</p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/vilarejo-Raphael-Montes/dp/8581053041/ref=sr_1_1?crid=UFP5L6H4ZR9K&dib=eyJ2IjoiMSJ9.7oRMJJ9pRulbJ7JtDLdt4snB4aPOJmgLcnMDSxPwVSOXx-mMzvWKO-r49u523KlDaNgLVekDsK4WQdwnNXTPiFriDdSwwT0trNmNbBGlNIoVPc4yp_ufbJXlKbsEnk2xExMnPuJaMWlvHUOlac8I96s6wCTky6iOEgyLpDRJW3sTovxixvCwVPU-sTd5gLG9v1zGxhHAXmMHa8cSvgQxCiaYsd4i82CIYV2b4lWrZyU.zZ26_P3LDSo_YV8_B97Tb-HvcyHSE-F08H4YCvpNHVQ&dib_tag=se&keywords=o+vilarejo&qid=1730213114&s=books&sprefix=o+vila%2Cstripbooks%2C344&sr=1-1">
+      <img src="https://m.media-amazon.com/images/I/81WzW3xJb5L._AC_UF1000,1000_QL80_.jpg" alt="Cherries" style="width:259px">
+      <h3>Segredo da mente milionária</h3>
+      <p>Os segredos da mente milionária: Aprenda a enriquecer mudando seus conceitos sobre o dinheiro e adotando os hábitos das pessoas bem-sucedidas.</p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/Dias-perfeitos-Raphael-Montes/dp/8535924019/ref=sr_1_1?crid=2L10EJ6T22VQ0&dib=eyJ2IjoiMSJ9.A8IcFoZTWXIVATzEZ4z1X68hsktwvMWrvD7Sb-P_AZyPyH2X0e80Jo-dUeQKAHfGnFEXaFYyYompkHfw_MDPvUv5QQsDXzvKNtGIygYVhFAZHxx1xqYVt0zR9KsHNm2HdDrfL68ujusOCQ63tnBwudu7Nv59dXYwpVPsvBQ1GjTiv-2YqLML6zNaLP8RUXiP8iQYzUEMVjVgjM09XPfcct2Zb82ahsrONDq-azMFFJY.c9WYGcELDqi8fsgPzrZxuuzskltpj9pWizw9LOQVg80&dib_tag=se&keywords=dias+perfeitos&qid=1730213146&s=books&sprefix=dias+%2Cstripbooks%2C380&sr=1-1">
+      <img src="https://m.media-amazon.com/images/I/51VNPOj3F0L._SY445_SX342_.jpg" alt="Pasta and Wine" style="width:100%">
+      <h3>Dias perfeitos</h3>
+      <p>Téo, rapaz que se revela um psicopata ao sequestrar Clarice, garota por quem se apaixona, obrigando-a a viajar para diversas cidades seguindo o roteiro homônimo ao romance escrito por ela.</p>
+    </a>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/divina-com%C3%A9dia-Dante-Alighieri/dp/6559102300/ref=sr_1_3?crid=2WH0SQD3OTCC3&dib=eyJ2IjoiMSJ9.E0GDwfF1d6Xsw_yRGYlhh2aMblWJDJln6psuBRWYufwC8WldpAialSMZFThTq9pkAu15W4kEwXK0ry210G41w9E-ljbrtu72BCWvzWyg9ags9ZPGttAAph5AVlEBMOl5u8UzOkFSDeKiMdNu3f8zZ2U3wRnvfABs3bPSSN_S7aNk8Dv0oT0tmjR407SQwV8oKWSWAXl1TNF9Lc1uo8jD96e7QZeoTJ11JgiDMOSu2nA.zBN2DcKvPbZzj3oKY9TZNVmMNF3U4yIRXt0av3bap4U&dib_tag=se&keywords=divina+comedia&qid=1730213171&s=books&sprefix=divina+co%2Cstripbooks%2C377&sr=1-3">
+      <img src="https://m.media-amazon.com/images/I/51SLwaM1-XL._SY445_SX342_.jpg" alt="Popsicle" style="width:100%">
+      <h3>Divina comédia</h3>
+      <p>A Divina Comédia é um poema de viés épico e teológico da literatura italiana e mundial, escrito por Dante Alighieri no século XIV e dividido em três partes: o Inferno, o Purgatório e o Paraíso.</p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/Boa-Noite-Punpun-Inio-Asano/dp/8545709617/ref=sr_1_5?crid=2XVFY9CIR0SZ2&dib=eyJ2IjoiMSJ9.FkFT7wEnbyk2gWxGpYpXEzOS7idjQRGZeDsLPZDvh4kcsY1yg_ovCnZ_srzRNiqhX8T1xFcjjjt2YVD-7Vde_DCF3tDfV2eWrQ7ZzLdG_-wDNy-hpyGQR08kEUypNsRXFnAWUltR2bYCPVwwa9J2yECIxQnx3QeV9E5lAVvVKTpHmrfw1QnD1514LDsnP5JnMp7oDmYlxOkEPNW_oz6w9AkXRH7exX5Rf4-Clrw03lA.EFZs9mIzS_Sm9ZTDqcJNChiaVwGYJmYLOeKNxSbhZLg&dib_tag=se&keywords=boa+noite+punpun&qid=1730213207&s=books&sprefix=boa+noite%2Cstripbooks%2C338&sr=1-5">
+      <img src="https://m.media-amazon.com/images/I/51EQ5jMPsHL._SY425_.jpg" alt="Salmon" style="width:100%">
+      <h3>Boa noite punpun</h3>
+      <p>Boa noite Punpun é uma série de mangá escrita e ilustrada por Inio Asano sobre Onodera Punpun, uma criança normal representada na forma de um pássaro. </p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/Capit%C3%A3es-areia-Jorge-Amado/dp/8535914064/ref=sr_1_1?crid=YPXNENNMOKSX&dib=eyJ2IjoiMSJ9.nj7UEej5EIGKEg3zSQjvdahugfITkVOpgtho9HAt17soYV1z7d8x_U-PSofm5Jly13aK-Ss9jceXkt3bKet49TEe7Mz4DtcoVmxaewLB7mH1q5gD-63qEgbZY7pXb2gN8bDinp1MfexEMkVfRjjwKF6CZWSacA7PjZsmIalI07bz_y_26TLK_fWpbm5SFNQNTAAwbESyZ5ow5Y9dj_jtx1kKGSrHYe2cpiA5gEXInyo.-G-ESt_ggbq59DTQS3C_EEZ_FGdt-diZowarHq87rSQ&dib_tag=se&keywords=capitaes+da+areia&qid=1730213235&s=books&sprefix=capi%2Cstripbooks%2C325&sr=1-1">
+      <img src="https://m.media-amazon.com/images/I/81t7altQZxL._SY425_.jpg" alt="Sandwich" style="width:100%">
+      <h3>Capitães da areia</h3>
+      <p>Capitães de Areia é uma obra do escritor baiano Jorge Amado, publicada em 1937. Trata-se de um romance moderno de denúncia social com o tema centrado na miséria dos meninos de rua.</p>
+    </a>
+    </div>
+    <div class="w3-quarter">
+      <a href="https://www.amazon.com.br/Pr%C3%ADncipe-Maquiavel-Acompanha-marcador-p%C3%A1ginas/dp/6584956199/ref=sr_1_2_sspa?crid=3ORB2P3DAMQ9Z&dib=eyJ2IjoiMSJ9.ecL2GHyIVZOoDci_yIocmXSXcqZ2x_i5_8iyPl6rQvWkPIShsrU-8ifPrShkcgbJXK-bEfzjDUzsKEc9C9n5Wab1MnkIY0QBDAzLxKx8oBB4OaOEHSipLgf7EO1ZZieNqqR9m2iCNylVYR6FSiVCYwxTh3zYYqciLlLydZFZkZ9aUfBi_oUTJpBq6pRmnqjJEXRjpWBnZBjf91VB0W9G-VaizMI-hL7mQ7-coJbJSEg.n1T35hG75y2vhfLWXfai4aWG2Wca06R2TFg4hxIWT4k&dib_tag=se&keywords=o+principe+maquiavel&qid=1730213260&s=books&sprefix=o+princi%2Cstripbooks%2C379&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+      <img src="https://images.tcdn.com.br/img/img_prod/1271663/o_principe_edicao_de_luxo_251_1_869d5bcd1b8ea6966d5a3c0943de8f1c.jpg" alt="Croissant" style="width:100%">
+      <h3>O princípe</h3>
+      <p>Trata daquilo que é o seu objetivo principal: as virtudes que o governante deve adquirir e os vícios que deve evitar para manter-se no poder.</p>
+    </a>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>Sobre a empresa</h3><br>
+    <img src="https://img.freepik.com/vetores-gratis/estrela-de-metal-3d-isolada_1308-117760.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Star</b></h4>
+      <h6><i>Bem vindo a mais uma expansão da Star!</i></h6>
+      <p>A Star é uma empresa inovadora que se destaca no universo do entretenimento digital, oferecendo uma vasta gama de serviços em diversos ramos. Com plataformas dedicadas à música, filmes e livros, a Star se tornou um verdadeiro hub cultural para amantes de todas as formas de arte.</p>
+    </div>
+  </div>
+  <hr>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
